@@ -1,0 +1,125 @@
+/**{
+	border:1px dashed black;
+}*/
+
+
+/* GENERAL */
+body{
+	background-color: #d0c0c0;
+	color:#f03;
+	font-family: Garamond;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+	text-align: center;
+	background-color:#fdd;
+	border-radius:10px;
+	border: 2px solid #f99;
+	height:200px;
+}
+.banner{
+	font-size:4em;
+	font-family:cursive;
+}
+
+#bit{
+	margin-top:-35px;
+	font-size: 0.9em;
+	display: none;
+}
+
+#right-image{
+	float: right;
+	height: 200px;
+	width: 350px;
+	border-radius:9px;
+}
+
+/* BODY */
+
+#body-heading{
+	text-align:center;
+}
+
+#buttons a{
+	height:80px;
+	width:20%;
+	background-color:#b280e6;
+	border-radius:5px;
+	float:left;
+	margin: 3% 6.3%;
+	border: 2px solid #944ddb;
+	text-align:center;
+	text-decoration: none;
+	font-size: 2.5em;
+}
+
+.highlighted{
+	background-color: black;
+}
+
+#buttons a:hover{
+	background-color: #fdd;
+	color:#f03;
+	border: 2px solid #f99;
+}
+
+#home a{
+	text-decoration: none;
+	color:#f03;
+}
+
+#home a:hover{
+	color:#944ddb;
+}
+
+#ingredients{
+	clear:both;
+	text-align:center;
+	padding:0 50px;
+	font-size: 1.4em;
+}
+
+.body-heading{
+	font-size:2.5em;
+	text-align: center;
+}
+
+#ingredients li{
+	display:inline;
+	margin: 0 1%;
+}
+
+#instructions li{
+	margin:10px 2.5%;
+}
+
+#end{
+	font-size: 2.2em;
+	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	padding: 5px 0;
+	background-color: #fcc;
+	border-radius: 3px;
+	clear: both;
+	text-align: center;
+	font-size: 0.75em;
+}
+footer li{
+	list-style: none;
+	display: inline;
+	margin:10px;
+}
+footer li a{
+	color: #66f;
+	margin:auto;
+}
